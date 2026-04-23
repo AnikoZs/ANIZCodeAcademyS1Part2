@@ -3,3 +3,8 @@
 [INFO] Wind: 7.1 -> Power: 10.649999999999999
 [ERROR] Invalid number: abc
 [INFO] Wind: 10.0 -> Power: 15.0
+[INFO] Starting file reading...
+[INFO] Wind: 5.2 -> Power: 7.800000000000001
+[INFO] Wind: 7.1 -> Power: 10.649999999999999
+[ERROR] Invalid number: abc
+[INFO] Wind: 10.0 -> Power: 15.0

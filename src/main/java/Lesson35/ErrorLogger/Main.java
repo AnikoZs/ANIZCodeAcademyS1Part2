@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         // Only show WARNING and ERROR
-        Logger logger = new ConsoleLogger(LogLevel.WARNING);
+        //Logger logger = new ConsoleLogger(LogLevel.WARNING);
 
         // Try this instead:
-        //Logger logger = new FileLogger("log.txt");
+        Logger logger = new FileLogger("log.txt");
 
         Windmill windmill = new BasicWindmill("WM-1");
 
