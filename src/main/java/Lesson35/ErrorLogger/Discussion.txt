@@ -1,0 +1,28 @@
+Niveau 1 – Grundforståelse
+1.	Hvad er formålet med et interface i dette eksempel?
+2.	Hvorfor bruger vi en abstract class (Windmill) i stedet for en almindelig klasse?
+3.	Hvad betyder det, at BasicWindmill nedarver fra Windmill?
+4.	Hvad er forskellen på INFO, WARNING og ERROR?
+5.	Hvad sker der, hvis vi prøver at læse "abc" fra filen?
+________________________________________
+Niveau 2 – Analyse
+6.	Hvorfor er det smart, at WindmillFileReader ikke ved, hvilken type logger den bruger?
+7.	Hvad er fordelen ved at kunne skifte mellem ConsoleLogger og FileLogger?
+8.	Hvordan fungerer filtreringen i ConsoleLogger (minLevel)?
+9.	Hvorfor bruger vi try-catch to steder i fil-læsningen?
+10.	Hvad kunne der ske, hvis vi ikke håndterede fejl (exceptions)?
+________________________________________
+Niveau 3 – Design & refleksion
+11.	Hvis du skulle udvide systemet, hvornår ville du bruge:
+•	interface?
+•	abstract class?
+12.	Er ordinal() en god måde at sammenligne log levels på? Hvorfor / hvorfor ikke?
+13.	Hvordan kunne man forbedre logger-systemet, så det bliver mere fleksibelt?
+14.	Hvad er fordelen ved at have flere log-niveauer i et rigtigt system?
+15.	Hvordan ville du designe en logger, der både skriver til fil og console samtidig?
+________________________________________
+Bonus
+16.	Er dette et eksempel på polymorfi? Forklar hvordan.
+17.	Hvad ville ske, hvis vi gjorde Logger til en almindelig klasse i stedet?
+18.	Hvordan kunne man teste WindmillFileReader uden at bruge en rigtig fil?
+________________________________________

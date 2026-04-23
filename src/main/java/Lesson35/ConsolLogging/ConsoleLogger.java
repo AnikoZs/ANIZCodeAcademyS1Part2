@@ -1,0 +1,19 @@
+package Lesson35.ConsolLogging;
+
+public class ConsoleLogger implements Logger {
+
+    @Override
+    public void info(String message) {
+        System.out.println("[INFO] " + message);
+    }
+
+    @Override
+    public void warning(String message) {
+        System.out.println("[WARNING] " + message);
+    }
+
+    @Override
+    public void error(String message) {
+        System.out.println("[ERROR] " + message);
+    }
+}
